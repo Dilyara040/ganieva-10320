@@ -1,0 +1,16 @@
+a = int(input('Введите первое число: '))
+c = str(input('Введите оперцию: '))
+b = int(input('Введите второе число: '))
+if c == '+':
+    print(a+b)
+elif c == '-':
+    print(a - b)
+elif c == '/':
+    if b != 0:
+        print(a/b)
+    else:
+        print('Ошибка! На 0 делить нельзя')
+elif c == '*':
+    print(a*b)
+else:
+    print('Ошибка! Нет такой операции')
